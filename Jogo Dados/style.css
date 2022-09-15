@@ -1,0 +1,14 @@
+#left {
+  width: 600px;
+  height: 500px;
+  float: left;
+}
+#right {
+  width: 600px;
+  height: 500px;
+  float: right;
+}
+
+body {
+  background-color: #e6e6fa;
+}

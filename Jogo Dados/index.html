@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" media="screen" href="style.css" />
+
+    <title>Jogo de Dados</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Jodo de Dados</h1>
+    <div id="left">
+      <h2 style="text-align: center">Jogador 1</h2>
+
+      <p style="text-align: center">
+        <img
+          src="Image/dados-funcao-0.png"
+          alt="dado"
+          id="face1"
+          width="300"
+          height="300"
+        />
+      </p>
+      <button
+        type="button"
+        id="rolar1"
+        style="
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: 0%;
+        "
+      >
+        Rolar
+      </button>
+    </div>
+
+    <div id="right">
+      <h2 style="text-align: center">Jogador 2</h2>
+
+      <p style="text-align: center">
+        <img
+          src="Image/dados-funcao-0.png"
+          alt="dado"
+          id="face2"
+          width="300"
+          height="300"
+        />
+      </p>
+      <button
+        type="button"
+        disabled
+        id="rolar2"
+        style="
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: 0%;
+        "
+      >
+        Rolar
+      </button>
+    </div>
+
+    <h3 style="text-align: center">Pontos:</h3>
+    <h4 style="text-align: center">Jogador 1</h4>
+    <h4 id="pontos1" style="text-align: center"></h4>
+    <br />
+    <h4 style="text-align: center">Jogador 2</h4>
+    <h4 id="pontos2" style="text-align: center"></h4>
+    <br />
+    <h4 style="text-align: center">Empates</h4>
+    <h4 id="pontosE" style="text-align: center"></h4>
+    <button
+      type="reset"
+      id="reset"
+      style="
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 0%;
+      "
+    >
+      Reiniciar
+    </button>
+  </body>
+  <script src="index.js"></script>
+</html>
